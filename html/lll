@@ -1,0 +1,21 @@
+< ! DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MY FIRST WEBSITE</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h1>hello world!</h1>
+    <button onclick=""showMessage()">Click Me!</button>
+    <script src="script.js"></script>
+</body>
+</html>
+{
+    font family: Arial, sans-serif;
+    background: #f0f0f0;
+    textalign: center;
+    margin-top: 50px;
+}
+     showMessage() {
+        alert("hello welcome to my first Website!");
